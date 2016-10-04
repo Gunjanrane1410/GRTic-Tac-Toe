@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B89E9E91D9BDB9500ED433C /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B89E9E81D9BDB9500ED433C /* secondViewController.m */; };
 		77F2D89B1D9BC8F200FF43B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F2D89A1D9BC8F200FF43B9 /* main.m */; };
 		77F2D89E1D9BC8F200FF43B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F2D89D1D9BC8F200FF43B9 /* AppDelegate.m */; };
 		77F2D8A11D9BC8F200FF43B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F2D8A01D9BC8F200FF43B9 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B89E9E71D9BDB9500ED433C /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		6B89E9E81D9BDB9500ED433C /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
 		77F2D8961D9BC8F200FF43B9 /* GRtictac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRtictac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77F2D89A1D9BC8F200FF43B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77F2D89C1D9BC8F200FF43B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 				77F2D89F1D9BC8F200FF43B9 /* ViewController.h */,
 				77F2D8A01D9BC8F200FF43B9 /* ViewController.m */,
 				77F2D8A21D9BC8F200FF43B9 /* Main.storyboard */,
+				6B89E9E71D9BDB9500ED433C /* secondViewController.h */,
+				6B89E9E81D9BDB9500ED433C /* secondViewController.m */,
 				77F2D8A51D9BC8F200FF43B9 /* Assets.xcassets */,
 				77F2D8A71D9BC8F200FF43B9 /* LaunchScreen.storyboard */,
 				77F2D8AA1D9BC8F200FF43B9 /* Info.plist */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B89E9E91D9BDB9500ED433C /* secondViewController.m in Sources */,
 				77F2D8A11D9BC8F200FF43B9 /* ViewController.m in Sources */,
 				77F2D89E1D9BC8F200FF43B9 /* AppDelegate.m in Sources */,
 				77F2D89B1D9BC8F200FF43B9 /* main.m in Sources */,
@@ -498,6 +504,7 @@
 				77F2D8C51D9BC8F300FF43B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77F2D8C61D9BC8F300FF43B9 /* Build configuration list for PBXNativeTarget "GRtictacTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				77F2D8C81D9BC8F300FF43B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77F2D8C91D9BC8F300FF43B9 /* Build configuration list for PBXNativeTarget "GRtictacUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				77F2D8CB1D9BC8F300FF43B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
