@@ -8,7 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    int numberOfTurnsToPlay;
+    int currentPlayer;
+    BOOL gameFinished;
+    int player;
+
+    
+    NSArray *winCombinationArray;
+    NSMutableArray *stateCheckArray;
+}
+
+- (IBAction)buttonTap:(id)sender;
+- (IBAction)lastWinAction:(id)sender;
 
 
 @end
